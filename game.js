@@ -97,7 +97,7 @@ $("body").addClass("game-over");
 setTimeout(function () {
   $("body").removeClass("game-over");
 }, 200);
-$("#level-title").text("game over press any key to restart");
+$("#level-title").text("game over double click to restart");
 startOver();
 }
 
