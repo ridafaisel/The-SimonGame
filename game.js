@@ -10,7 +10,7 @@ var level = 0;
 
 
 
-$(document).keypress(function(){
+$(document).dblclick(function(){
   if(!started){
     $("#level-title").text("Level " + level);
     nextSequence()
@@ -18,17 +18,6 @@ $(document).keypress(function(){
 
   }
 } );
-
-
-$(document).click(function(){
-  if(!started){
-    $("#level-title").text("Level " + level);
-    nextSequence()
-    started = true;
-
-  }
-} );
-
 
 
 
